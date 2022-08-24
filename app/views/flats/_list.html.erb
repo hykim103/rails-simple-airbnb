@@ -1,0 +1,4 @@
+<% @flats.each do |flat| %>
+  <%= render flat %>
+  <%= link_to "More info", flat_path(flat) %>
+<% end %>

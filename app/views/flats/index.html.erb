@@ -1,2 +1,2 @@
-<h1>Flats#index</h1>
-<p>Find me in app/views/flats/index.html.erb</p>
+<h1>All our Flats (<%= Flat.count %>)</h1>
+<%= render "flats/list", flats: @flats %>
