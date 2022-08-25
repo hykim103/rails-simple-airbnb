@@ -17,6 +17,8 @@
     <p><%= link_to "Simple Airbnb", flats_path %></p>
     <p class="btn btn-primary"><%= link_to "Add Flat", new_flat_path %></p>
     </div>
-    <%= yield %>
+    <div class="d-flex">
+      <%= yield %>
+    </div>
   </body>
 </html>
